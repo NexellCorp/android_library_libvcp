@@ -1,0 +1,12 @@
+LOCAL_PATH := $(call my-dir)
+
+#libvcp
+include $(CLEAR_VARS)
+
+LOCAL_MODULE :=libvcp
+LOCAL_MODULE_OWNET := alango
+LOCAL_SRC_FILES := libvcp.a
+LOCAL_MODULE_SUFFIX := .a
+LOCAL_MODULE_CLASS := STATIC_LIBRARIES
+
+include $(BUILD_PREBUILT)
